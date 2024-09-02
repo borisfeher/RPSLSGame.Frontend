@@ -26,39 +26,9 @@ This is the frontend component for the "Rock, Paper, Scissors, Lizard, Spock" ga
     npm install
     ```
 
-3. **Environment Variables**:
-    Make sure you set up the following environment variables:
-       REACT_APP_API_URL: The URL of the backend API.
-    Create a .env file in the project root and add:
-    ```bash
-    REACT_APP_API_URL=http://localhost:7074/api
-    ```
-
-4. **Running the Project**:
+3. **Running the Project**:
     Start the Development Server
     ```bash
     npm start
     ```
-    The application will be available at http://localhost:3000.
-
-5. **Building for Production**:
-    To create a production-ready build:
-    ```bash
-    npm run build
-    ```
-    The build will be output to the build/ directory.
-
-6. **Docker Support (Optional)**:
-    To build and run the frontend using Docker:
-    Build the Docker Image
-    ```bash
-    docker build -t rpslsgame-frontend .
-    ```
-    The application will be available at http://localhost:3000.
-
-7. **Run the Docker Container**:
-    To create a production-ready build:
-    ```bash
-    docker run -p 3000:3000 rpslsgame-frontend
-    ```
-    The application will be available at http://localhost:3000.
+    The application will be available at http://localhost:44441.
